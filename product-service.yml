@@ -1,0 +1,20 @@
+server:
+  port: 8771
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    #指定客户端在服务端页面的显示格式（只显示客户端名和端口号）
+#    instance-id: ${spring.application.name}:${server.port}
+#    #显示访问路径可以显示ip地址
+#    prefer-ip-address: true
+
+#为服务命名时候不能使用“_”
+spring:
+  application:
+    name: product-service
+
+
+
