@@ -1,3 +1,5 @@
+env: test
+
 server:
   port: 8771
 
@@ -26,6 +28,3 @@ management:
     web:
       exposure:
         include: bus-refresh   
-
-
-
