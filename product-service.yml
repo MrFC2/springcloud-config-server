@@ -1,4 +1,4 @@
-env: change
+env: test
 
 server:
   port: 8771
